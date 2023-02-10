@@ -1,5 +1,6 @@
 {
   "domain": "sonicare",
+  "version": "0.0.1",
   "name": "Sonicare",
   "config_flow": true,
   "documentation": "https://www.home-assistant.io/integrations/sonicare",
