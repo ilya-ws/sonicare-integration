@@ -1,0 +1,19 @@
+{
+  "domain": "sonicare",
+  "name": "Sonicare",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/sonicare",
+  "bluetooth": [
+    {
+      "manufacturer_id": 477
+    }
+  ],
+  "requirements": [
+    "git+https://github.com/ilya-ws/sonicare-ble.git@sonicare#sonicare_ble"
+  ],
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "codeowners": [],
+  "iot_class": "local_push"
+}
